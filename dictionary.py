@@ -74,19 +74,19 @@
 
 # print word_histogram
 
-# # My own exercise
-# values = raw_input('Enter the names of your family: ')
-# values_split = values.split()
-# family_names = {}
+# My own exercise
+values = raw_input('Enter the names of your family: ')
+values_split = values.split()
+family_names = {}
 
-# for all_names in values_split:
-#     if all_names in family_names:
-#         family_names[all_names] += 1
-#     else:
-#         family_names[all_names] = 1
-# print family_names
+for all_names in values_split:
+    if all_names in family_names:
+        family_names[all_names] += 1
+    else:
+        family_names[all_names] = 1
+print family_names
 
-# Bonus Challenge - Histogram Tally
+Bonus Challenge - Histogram Tally
 
 bonus_sentence = raw_input('Please enter a sentence: ')
 split_sentence = bonus_sentence.split()
